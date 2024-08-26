@@ -1,0 +1,44 @@
+/* src/components/NavBar.css */
+.navbar {
+  background: linear-gradient(135deg, #3e8e41 0%, #2e6e30 100%);
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.navbar .menu-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar .menu-btn:hover {
+  color: #c2d82f; /* Verde claro en hover */
+}
+
+.navbar h1.logo {
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar .cart-widget {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .cart-widget .cart-notification {
+  background-color: #f00;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+}

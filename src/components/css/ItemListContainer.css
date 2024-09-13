@@ -1,0 +1,92 @@
+/* src/components/ItemListContainer.css */
+.item-list-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.intro {
+  position: relative;
+  padding: 20px;
+  background: url('../images/mate.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.intro p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.benefits {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.benefits h2 {
+  font-size: 1.75rem;
+  margin-top: 0;
+  color: #333;
+}
+
+.benefits ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.benefits li {
+  margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .item-list-container {
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .intro h2 {
+    font-size: 1.5rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .benefits h2 {
+    font-size: 1.5rem;
+  }
+
+  .benefits ul {
+    font-size: 1rem;
+  }
+}

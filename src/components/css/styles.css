@@ -1,0 +1,21 @@
+/* styles.css */
+
+/* Fija el NavBar en la parte superior */
+.NavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Ajusta según el color de tu barra de navegación */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional para el efecto de profundidad */
+    z-index: 1000; /* Asegura que la barra de navegación esté por encima del contenido */
+    padding: 10px 20px; /* Espaciado dentro del NavBar */
+  }
+  
+  /* Asegura que el contenido principal no quede oculto detrás del NavBar */
+  .main-content {
+    margin-top: 60px; /* Ajusta este valor según la altura del NavBar */
+    padding: 20px; /* Espaciado dentro del contenido principal */
+    overflow: auto; /* Permite el desplazamiento si el contenido es demasiado largo */
+  }
+  

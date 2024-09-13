@@ -1,0 +1,54 @@
+/* src/components/css/NavBar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #343a40; /* Color de fondo oscuro para contraste */
+  color: #ffffff; /* Texto en blanco para mejor visibilidad */
+  padding: 10px 20px;
+  position: fixed; /* Fija la barra de navegación en la parte superior */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Asegura que la barra de navegación esté sobre otros elementos */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidad */
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.menu-btn:hover {
+  color: #007bff; /* Cambia el color al pasar el mouse sobre el botón */
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 0;
+  flex: 1; /* Asegura que el logo tenga el espacio adecuado */
+  text-align: center;
+}
+
+.cart-widget {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart-widget .item-count {
+  background-color: #007bff; /* Color para el contador de artículos */
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  margin-left: 10px;
+  position: relative;
+  top: -5px;
+}
